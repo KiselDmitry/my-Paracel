@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title My Parcel 
+		link(rel="stylesheet", href="scss/styles.scss")
+		script( type="module" src="js/main.js") 
+	body 
+		.container-fluid
+			.container.py-4.px-3.mx-auto
+				h1 Hello, Bootstrap and Parcel!
+				button.btn.btn-primary Primary button
+				.accordion#accordionExample
+					.accordion-item
+						h2.accordion-header#headingOne
+							button(class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne")
+								| Элемент аккордеона #1
+						div(id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample")
+							.accordion-body
+								strong Это тело аккордеона первого элемента.
+								| но отображается по умолчанию, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в 
+								code .accordion-body
+								| хотя переход ограничивает переполнение.
+					.accordion-item
+						h2.accordion-header#headingTwo
+							button(class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo")
+								| Элемент аккордеона #2
+						div(id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample")
+							.accordion-body
+								strong Это тело аккордеона первого элемента.
+								| но отображается по умолчанию, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в 
+								code .accordion-body
+								| хотя переход ограничивает переполнение.
+					.accordion-item
+						h2.accordion-header#headingThree
+							button(class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree")
+								| Элемент аккордеона #3
+						div(id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample")
+							.accordion-body
+								strong Это тело аккордеона первого элемента.
+								| но отображается по умолчанию, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в 
+								code .accordion-body
+								| хотя переход ограничивает переполнение.
+
